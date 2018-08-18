@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CDOApp</string>
+    <string name="btn_registered">Estoy registrado en el evento</string>
+    <string name="btn_no_registered">NO estoy registrado en el evento</string>
+    <string name="textview">Ingresa la incial de tu primer nombre y tu primer apellido completo</string>
+    <string name="textview2">Ingresa tu numero de celular</string>
+    <string name="inicia_sesion">Inicia Sesion</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="jperez">jperez</string>
+    <string name="_983829729">983829729</string>
 </resources>
