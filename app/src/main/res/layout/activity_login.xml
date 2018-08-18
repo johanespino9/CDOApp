@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
         android:id="@+id/textView"
@@ -15,6 +16,7 @@
         android:layout_marginTop="52dp"
         android:text="@string/textview"
         android:textAlignment="center"
+        android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +30,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/textview"
         android:textAlignment="center"
+        android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +45,7 @@
         android:layout_marginTop="24dp"
         android:hint="@string/jperez"
         android:inputType=""
+        android:textColor="@color/textColor"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,6 +60,7 @@
         android:layout_marginTop="12dp"
         android:hint="@string/_983829729"
         android:inputType=""
+        android:textColor="@color/textColor"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,6 +75,7 @@
         android:layout_marginTop="52dp"
         android:text="@string/inicia_sesion"
         android:textSize="24sp"
+        android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,6 +89,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="52dp"
         android:text="@string/btn_ingresar"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
